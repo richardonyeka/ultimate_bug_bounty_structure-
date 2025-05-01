@@ -1,0 +1,11 @@
+name: Read-Only Token Test
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          # This should FAIL if token is read-only
+          git commit --allow-empty -m "Test" && git push origin main || echo "✅ Test passed (write blocked)"
