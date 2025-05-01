@@ -1,6 +1,6 @@
 # Bug Bounty Research Repository
 
-This repository contains resources, notes, and findings related to bug bounty research. It is designed to help researchers organize their work, learn about various vulnerabilities, and track their progress in bug hunting.
+This repository contains resources, notes, and findings related to bug bounty research. It is designed to help researchers organize their work, learn about various vulnerabilities, and track their progress in bug hunting
 
 ## Table of Contents
 - [Project Description](#project-description)
